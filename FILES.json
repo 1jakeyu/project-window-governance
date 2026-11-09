@@ -2,16 +2,32 @@
   "package_id": "pwg-public-20261109-rc3",
   "algorithm": "SHA-256",
   "excludes_self": true,
+  "repository_revision_id": "pwg-homepage-20261109-vi-v2",
   "files": [
     {
       "path": "PACKAGE.json",
-      "bytes": 4478,
-      "sha256": "d3bc2e5b7479ce6f10a80b86b210e2ee5af45e693ed3e21d6fd5323b6a8fd9d2"
+      "bytes": 5173,
+      "sha256": "8bce73dbffd5c4b5f1bdfaa0841ff7cc554a2e03fbcc73f17c1c3cbf8a8d6513"
     },
     {
       "path": "README.md",
-      "bytes": 7787,
-      "sha256": "ede008c02fb6ea09e866658dad1c9f56c652f68c5fed37305373c32e2e677ac6"
+      "bytes": 11487,
+      "sha256": "972d7cce91fde4785d3f2bbb2180c1d52bb40f72dc376a08c5cb215be137fa6e"
+    },
+    {
+      "path": "docs/assets/cover.png",
+      "bytes": 217979,
+      "sha256": "ed875869b4ba2b58a56460dea6d9fb5a24652eb1e54e070b7fe91cb9e0719342"
+    },
+    {
+      "path": "docs/assets/flow-01-v2.png",
+      "bytes": 115840,
+      "sha256": "b1452c92306dcb4bf9770d9a5006433e3b3c84809d2d47c15d83a510d4bc04ed"
+    },
+    {
+      "path": "docs/assets/flow-02-v2.png",
+      "bytes": 137865,
+      "sha256": "4015b697b315f93b390c569f5f12b9f6886d22025844900cba63f11739ce9d0d"
     },
     {
       "path": "docs/安装与使用.md",

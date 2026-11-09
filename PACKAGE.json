@@ -85,7 +85,10 @@
       "docs/提示词与试点.md",
       "PACKAGE.json",
       "FILES.json",
-      "window-icon.svg"
+      "window-icon.svg",
+      "docs/assets/cover.png",
+      "docs/assets/flow-01-v2.png",
+      "docs/assets/flow-02-v2.png"
     ],
     "added_skill_resources": [
       "references/model-dispatch.md"
@@ -111,7 +114,7 @@
     "model_discovery_scope": "Verify current host declarations or supported read-only interfaces; no fixed provider/model/depth and no account-wide inference."
   },
   "permissions": "Publication is authorized for this candidate; target-device installation and project/chat operations require their own concrete approval",
-  "hash_scope": "FILES.json lists all payload files except itself; ZIP SHA-256 is supplied outside ZIP",
+  "hash_scope": "FILES.json describes the current repository checkout except itself. For the immutable rc3 ZIP, use FILES.json and SHA256SUMS.txt from tag pwg-public-20261109-rc3.",
   "license": "No license grant added; source publication rights not established by packaging",
   "based_on_public_candidate": "pwg-public-20261109-rc2",
   "current_candidate_maintenance": "This repository; historical source precedence remains unconfirmed",
@@ -120,5 +123,13 @@
     "skill_path": "project-window-governance",
     "manual_zip": "optional fallback",
     "all_platforms_tested": false
+  },
+  "repository_revision_id": "pwg-homepage-20261109-vi-v2",
+  "homepage_update": {
+    "date": "2026-11-09",
+    "scope": "README onboarding and approved VI assets only; skill payload and published rc3 release remain unchanged.",
+    "skill_release_tag": "pwg-public-20261109-rc3",
+    "source_design": "Xiaoyu AI window governance cover and flow v2; original candidate marks retained.",
+    "retained": "Existing icon, prior Git commits, published releases, original design files and local pre-change backup."
   }
 }
