@@ -1,9 +1,9 @@
 {
-  "package_id": "pwg-public-20261109-rc2",
+  "package_id": "pwg-public-20261109-rc3",
   "based_on_package": "pwg-portable-20261109-c31b26d4",
   "repository": "https://github.com/1jakeyu/project-window-governance",
   "skill": "project-window-governance",
-  "status": "public-release-candidate-with-model-dispatch-guidance",
+  "status": "public-release-candidate-with-platform-neutral-model-discovery",
   "source_installation_label": "2026.10.13.1",
   "confirmed_maintenance_source": false,
   "source_allowlist_sha256": "bcd3580f3954da864e4a3fb2bf69cbf966fbc7eafa48689ba74075d2ec144277",
@@ -71,7 +71,10 @@
   ],
   "differences": {
     "original_skill_files_changed": [
-      "SKILL.md"
+      "SKILL.md",
+      "adapters/codex.md",
+      "adapters/claude-desktop.md",
+      "adapters/hermes-openclaw.md"
     ],
     "excluded_installation_metadata": [
       "INSTALLATION.json"
@@ -80,14 +83,16 @@
       "README.md",
       "docs/安装与使用.md",
       "docs/提示词与试点.md",
-      "先读我.md",
       "PACKAGE.json",
-      "验证摘要.md",
       "FILES.json",
       "window-icon.svg"
     ],
     "added_skill_resources": [
       "references/model-dispatch.md"
+    ],
+    "removed_delivery_resources": [
+      "先读我.md",
+      "验证摘要.md"
     ]
   },
   "dependencies": {
@@ -101,11 +106,19 @@
     "manual_minimal_summary_fallback": true,
     "automatic_permissions_or_cross_device_approval_transfer": false,
     "daemon_or_service": false,
-    "remote_service_configured": false
+    "remote_service_configured": false,
+    "platform_neutral_workflow": true,
+    "model_discovery_scope": "Verify current host declarations or supported read-only interfaces; no fixed provider/model/depth and no account-wide inference."
   },
   "permissions": "Publication is authorized for this candidate; target-device installation and project/chat operations require their own concrete approval",
   "hash_scope": "FILES.json lists all payload files except itself; ZIP SHA-256 is supplied outside ZIP",
   "license": "No license grant added; source publication rights not established by packaging",
-  "based_on_public_candidate": "pwg-public-20261109-rc1",
-  "current_candidate_maintenance": "This repository; historical source precedence remains unconfirmed"
+  "based_on_public_candidate": "pwg-public-20261109-rc2",
+  "current_candidate_maintenance": "This repository; historical source precedence remains unconfirmed",
+  "installation": {
+    "primary": "Ask the current agent to install the versioned skill subdirectory; Codex can use skill-installer.",
+    "skill_path": "project-window-governance",
+    "manual_zip": "optional fallback",
+    "all_platforms_tested": false
+  }
 }

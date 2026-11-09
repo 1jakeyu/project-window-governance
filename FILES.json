@@ -1,52 +1,52 @@
 {
-  "package_id": "pwg-public-20261109-rc2",
+  "package_id": "pwg-public-20261109-rc3",
   "algorithm": "SHA-256",
   "excludes_self": true,
   "files": [
     {
       "path": "PACKAGE.json",
-      "bytes": 3866,
-      "sha256": "8a0e672ffb04c65f1ffd96ea0cf1ae145cb3a93e0236ff561c28b31d8b777447"
+      "bytes": 4478,
+      "sha256": "d3bc2e5b7479ce6f10a80b86b210e2ee5af45e693ed3e21d6fd5323b6a8fd9d2"
     },
     {
       "path": "README.md",
-      "bytes": 6445,
-      "sha256": "eeab98922849cd2e5ebd07c3ca3a4d046302ad29d24f0272f17928d96a2c330b"
+      "bytes": 7787,
+      "sha256": "ede008c02fb6ea09e866658dad1c9f56c652f68c5fed37305373c32e2e677ac6"
     },
     {
       "path": "docs/安装与使用.md",
-      "bytes": 7988,
-      "sha256": "3e6e098eee24b6b3edc73550a7fecd013fde16a3d5e183704b53e6044aafbe14"
+      "bytes": 8678,
+      "sha256": "78c201ab79c9a2ad7bd2446b897ddeb7a8ef92ddee19d978f17c3cfea0252912"
     },
     {
       "path": "docs/提示词与试点.md",
-      "bytes": 8603,
-      "sha256": "8644a58e79a61abfe74b66757acbe9ece098e8432481bfdf994b37a6d5f571d5"
+      "bytes": 8979,
+      "sha256": "a7e1f45c9dc81a6236dbf4f10fa6e863879983fcea99c972b9939b8b88a0559a"
     },
     {
       "path": "project-window-governance/SKILL.md",
-      "bytes": 8676,
-      "sha256": "93ec3b74f7cd38b784dffd87190abd66a2ca41ad6aec5c4fe3ef44e639aa5b51"
+      "bytes": 9916,
+      "sha256": "1b71d5fc0911931ae6e80ea165874d173f7ad9e319c9235bcc9801acef66dac0"
     },
     {
       "path": "project-window-governance/adapters/claude-desktop.md",
-      "bytes": 1798,
-      "sha256": "6a4e76b93230adc9b25558290b1781dc6249cee54d41975063d2535523bd3cf9"
+      "bytes": 2661,
+      "sha256": "19d1009cd9ba35e4157b6232085564f3f49c143f36429d03e906d8213deb25b4"
     },
     {
       "path": "project-window-governance/adapters/codex.md",
-      "bytes": 4070,
-      "sha256": "f56837bf1a413bbebc011ae2fb87f91bc908213ed1361f7aa69ace4bb78318ce"
+      "bytes": 5758,
+      "sha256": "a7dacf4e08249f12705348bb38809da69a224222302408e573fe0a2cccbbb6b9"
     },
     {
       "path": "project-window-governance/adapters/hermes-openclaw.md",
-      "bytes": 1938,
-      "sha256": "562e07a7d450f88e9aa2b164211b2e32aad9523d16741c7ef811a39c5c518ac1"
+      "bytes": 2813,
+      "sha256": "fb44bb543636040015ef30efc6090803aead6ae0bc6b8ff30f87eca13513f047"
     },
     {
       "path": "project-window-governance/references/model-dispatch.md",
-      "bytes": 5258,
-      "sha256": "87bd54b2ee715ba5c7d3fac08d2afbeb7972faaddb251094e57dc6b1e6fa8f49"
+      "bytes": 5988,
+      "sha256": "52ac5638af5b26ffa6ee7a3905a6ef1536e5fa552f080b82ec18677b69a43a21"
     },
     {
       "path": "project-window-governance/references/naming-and-git.md",
@@ -92,16 +92,6 @@
       "path": "window-icon.svg",
       "bytes": 783,
       "sha256": "de4188c46fce43b0f0849fc6059ab9e3fd4968b1433fe49a2bbc697e729a4522"
-    },
-    {
-      "path": "先读我.md",
-      "bytes": 1914,
-      "sha256": "3f29e0a8be7025a3ab32821f4bc520f28701c4ebe1579df05b0407ed2e033b2b"
-    },
-    {
-      "path": "验证摘要.md",
-      "bytes": 3033,
-      "sha256": "daf66cc0dba8c80b927f0eaee8ccf07077203b24f5fa1add7baae8ddd359417f"
     }
   ]
 }
