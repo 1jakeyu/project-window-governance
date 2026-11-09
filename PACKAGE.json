@@ -1,9 +1,9 @@
 {
-  "package_id": "pwg-public-20261109-rc1",
+  "package_id": "pwg-public-20261109-rc2",
   "based_on_package": "pwg-portable-20261109-c31b26d4",
   "repository": "https://github.com/1jakeyu/project-window-governance",
   "skill": "project-window-governance",
-  "status": "public-release-candidate-based-on-installed-snapshot",
+  "status": "public-release-candidate-with-model-dispatch-guidance",
   "source_installation_label": "2026.10.13.1",
   "confirmed_maintenance_source": false,
   "source_allowlist_sha256": "bcd3580f3954da864e4a3fb2bf69cbf966fbc7eafa48689ba74075d2ec144277",
@@ -70,7 +70,9 @@
     }
   ],
   "differences": {
-    "original_skill_files_changed": [],
+    "original_skill_files_changed": [
+      "SKILL.md"
+    ],
     "excluded_installation_metadata": [
       "INSTALLATION.json"
     ],
@@ -81,7 +83,11 @@
       "先读我.md",
       "PACKAGE.json",
       "验证摘要.md",
-      "FILES.json"
+      "FILES.json",
+      "window-icon.svg"
+    ],
+    "added_skill_resources": [
+      "references/model-dispatch.md"
     ]
   },
   "dependencies": {
@@ -99,5 +105,7 @@
   },
   "permissions": "Publication is authorized for this candidate; target-device installation and project/chat operations require their own concrete approval",
   "hash_scope": "FILES.json lists all payload files except itself; ZIP SHA-256 is supplied outside ZIP",
-  "license": "No license grant added; source publication rights not established by packaging"
+  "license": "No license grant added; source publication rights not established by packaging",
+  "based_on_public_candidate": "pwg-public-20261109-rc1",
+  "current_candidate_maintenance": "This repository; historical source precedence remains unconfirmed"
 }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="120" viewBox="0 0 148 120" role="img" aria-label="窗口与任务图标">
+  <rect x="16" y="25" width="94" height="70" rx="13" fill="#ece8fa" stroke="#8273b6" stroke-width="2"/>
+  <path d="M17 46h92" stroke="#8273b6" stroke-width="2"/>
+  <circle cx="29" cy="36" r="3" fill="#f3a878"/><circle cx="40" cy="36" r="3" fill="#b8abd9"/><circle cx="51" cy="36" r="3" fill="#b8abd9"/>
+  <path d="M33 61h35M33 72h27M33 83h22" fill="none" stroke="#9b8bc8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="76" y="55" width="55" height="44" rx="11" fill="#fff2e8" stroke="#d88f62" stroke-width="2"/>
+  <path d="m89 77 8 8 19-20" fill="none" stroke="#c77e54" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
