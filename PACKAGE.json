@@ -1,0 +1,103 @@
+{
+  "package_id": "pwg-public-20261109-rc1",
+  "based_on_package": "pwg-portable-20261109-c31b26d4",
+  "repository": "https://github.com/1jakeyu/project-window-governance",
+  "skill": "project-window-governance",
+  "status": "public-release-candidate-based-on-installed-snapshot",
+  "source_installation_label": "2026.10.13.1",
+  "confirmed_maintenance_source": false,
+  "source_allowlist_sha256": "bcd3580f3954da864e4a3fb2bf69cbf966fbc7eafa48689ba74075d2ec144277",
+  "source_files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8310,
+      "sha256": "a9363213221df64fb6f13dee9cb312c7d9bb4d3de83e7ae8dbfdca753583651b"
+    },
+    {
+      "path": "adapters/codex.md",
+      "bytes": 4070,
+      "sha256": "f56837bf1a413bbebc011ae2fb87f91bc908213ed1361f7aa69ace4bb78318ce"
+    },
+    {
+      "path": "adapters/claude-desktop.md",
+      "bytes": 1798,
+      "sha256": "6a4e76b93230adc9b25558290b1781dc6249cee54d41975063d2535523bd3cf9"
+    },
+    {
+      "path": "adapters/hermes-openclaw.md",
+      "bytes": 1938,
+      "sha256": "562e07a7d450f88e9aa2b164211b2e32aad9523d16741c7ef811a39c5c518ac1"
+    },
+    {
+      "path": "references/receipt-format.md",
+      "bytes": 3888,
+      "sha256": "38436a26de4c715ac5f76a0a2661fc4e3534c9ea31f0decef21bb778e8d1a1a1"
+    },
+    {
+      "path": "references/naming-and-git.md",
+      "bytes": 1953,
+      "sha256": "8fe2eb6df097f0e15489f76ce67721a83dfe50e27da226169b406c2a4c69c363"
+    },
+    {
+      "path": "scripts/scan_windows.py",
+      "bytes": 13050,
+      "sha256": "b1c6c99122c1682419cb6aa6837ed24e644f697fd9f27c690ada53a10f25ecc2"
+    },
+    {
+      "path": "scripts/tasks.py",
+      "bytes": 30308,
+      "sha256": "777dfeb95bfefcd552fd3862b3dbdcc9580e61c5b834e37145e18c08247b8eb9"
+    },
+    {
+      "path": "templates/task-card.md",
+      "bytes": 1584,
+      "sha256": "a3835937b8b5c5d863079911e9b3123b63185a480bfb5b1f5913c72dd2e211b1"
+    },
+    {
+      "path": "templates/项目地图.md",
+      "bytes": 1562,
+      "sha256": "3a0467b68772514d24957badea64a50489ed3d1c37750b88c41fc88b30b11e76"
+    },
+    {
+      "path": "templates/治理方案.md",
+      "bytes": 1788,
+      "sha256": "d01393bb6a022e6be8c7dc8d84a60a27993332d503a4461273b8dac8ce98a562"
+    },
+    {
+      "path": "templates/交接.md",
+      "bytes": 2448,
+      "sha256": "515f2da506f50886128e9ec13080e08f4f6608ba469e40bb8a234e8ed340046c"
+    }
+  ],
+  "differences": {
+    "original_skill_files_changed": [],
+    "excluded_installation_metadata": [
+      "INSTALLATION.json"
+    ],
+    "added_delivery_resources": [
+      "README.md",
+      "docs/安装与使用.md",
+      "docs/提示词与试点.md",
+      "先读我.md",
+      "PACKAGE.json",
+      "验证摘要.md",
+      "FILES.json"
+    ]
+  },
+  "dependencies": {
+    "instruction_use": "No Python required",
+    "offline_helpers_minimum_python": "3.9",
+    "offline_helpers_imports": "Python standard library only",
+    "macos_executed": false
+  },
+  "capabilities": {
+    "official_platform_tools_required_for_real_chat_reads_or_actions": true,
+    "manual_minimal_summary_fallback": true,
+    "automatic_permissions_or_cross_device_approval_transfer": false,
+    "daemon_or_service": false,
+    "remote_service_configured": false
+  },
+  "permissions": "Publication is authorized for this candidate; target-device installation and project/chat operations require their own concrete approval",
+  "hash_scope": "FILES.json lists all payload files except itself; ZIP SHA-256 is supplied outside ZIP",
+  "license": "No license grant added; source publication rights not established by packaging"
+}
